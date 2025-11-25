@@ -45,5 +45,13 @@
 			</StackPanel>
 		</GroupBox>
 
+		<StackPanel Grid.Row="4" Margin="5">
+			<Button Content="Rendelés leadása" Height="40" Click="RendelesClick"/>
+
+			<TextBlock x:Name="txtOsszegzes" Margin="5" 
+                       TextWrapping="Wrap" FontSize="14"
+                       Foreground="DarkRed"/>
+		</StackPanel>
+
 	</Grid>
 </Window>
