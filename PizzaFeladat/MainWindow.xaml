@@ -38,5 +38,12 @@
 			</StackPanel>
 		</GroupBox>
 
+		<GroupBox Header="Átvételi mód" Grid.Row="3" Margin="5">
+			<StackPanel Orientation="Vertical">
+				<RadioButton x:Name="rbHazhoz" Content="Házhozszállítás" IsChecked="True"/>
+				<RadioButton x:Name="rbSzemelyes" Content="Személyes átvétel"/>
+			</StackPanel>
+		</GroupBox>
+
 	</Grid>
 </Window>
