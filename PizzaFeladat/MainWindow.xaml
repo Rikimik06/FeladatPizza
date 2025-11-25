@@ -28,5 +28,15 @@
 			</ComboBox>
 		</GroupBox>
 
+		<GroupBox Header="Feltétek" Grid.Row="2" Margin="5">
+			<StackPanel>
+				<CheckBox x:Name="chSajt" Content="Sajt"/>
+				<CheckBox x:Name="chSonka" Content="Sonka"/>
+				<CheckBox x:Name="chGomba" Content="Gomba"/>
+				<CheckBox x:Name="chOlivabogyo" Content="Olívabogyó"/>
+				<CheckBox x:Name="chKukorica" Content="Kukorica"/>
+			</StackPanel>
+		</GroupBox>
+
 	</Grid>
 </Window>
